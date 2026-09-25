@@ -1,0 +1,61 @@
+#EXTM3U
+
+# ============================================================
+# MAROCCO - CANALI NAZIONALI / SNRT
+# Playlist per Kodi / PVR IPTV Simple Client
+# ============================================================
+
+# --- SNRT ---
+
+#EXTINF:-1 tvg-id="AlAoula.ma" group-title="SNRT | Nazionali",Al Aoula
+https://streaming.snrtlive.ma/live/slaalaoula/slaalaoula.m3u8
+
+#EXTINF:-1 tvg-id="Laayoune.ma" group-title="SNRT | Nazionali",Laayoune TV
+https://streaming.snrtlive.ma/live/slalaayoune/slalaayoune.m3u8
+
+#EXTINF:-1 tvg-id="Arryadia.ma" group-title="SNRT | Nazionali",Arryadia
+https://streaming.snrtlive.ma/live/slaarryadia/slaarryadia.m3u8
+
+#EXTINF:-1 tvg-id="Athaqafia.ma" group-title="SNRT | Nazionali",Athaqafia
+https://streaming.snrtlive.ma/live/slaarrabia/slaarrabia.m3u8
+
+#EXTINF:-1 tvg-id="AlMaghribia.ma" group-title="SNRT | Nazionali",Al Maghribia
+https://streaming.snrtlive.ma/live/slamaghribia/slamaghribia.m3u8
+
+#EXTINF:-1 tvg-id="Assadissa.ma" group-title="SNRT | Nazionali",Assadissa
+https://streaming.snrtlive.ma/live/slaassadissa/slaassadissa.m3u8
+
+#EXTINF:-1 tvg-id="Tamazight.ma" group-title="SNRT | Nazionali",Tamazight
+https://streaming.snrtlive.ma/live/slataamazight/slataamazight.m3u8
+
+# --- 2M ---
+
+#EXTINF:-1 tvg-id="2M.ma@SD" group-title="Nazionali",2M
+http://185.9.2.18/chid_218/index.m3u8
+
+#EXTINF:-1 tvg-id="2MMonde.ma@SD" group-title="Nazionali",2M Monde
+#EXTVLCOPT:http-referrer=http://www.radio2m.ma/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
+https://cdn-globecast.akamaized.net/live/eds/2m_monde/hls_video_ts_tuhawxpiemz257adfc/2m_monde.m3u8
+
+#EXTINF:-1 tvg-id="2MMonde.ma@Plus1" group-title="Nazionali",2M Monde +1
+https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n6pess5lwbghr/2M_ES.m3u8
+
+# --- MEDI1 TV ---
+
+#EXTINF:-1 tvg-id="Medi1TVAfrique.ma@SD" group-title="Nazionali",Medi1TV Afrique
+https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-afrique_tm7tu45/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Medi1TVArabic.ma@SD" group-title="Nazionali",Medi1TV Arabic
+https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-arabic_g90v4ec/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Medi1TVMaghreb.ma@SD" group-title="Nazionali",Medi1TV Maghreb
+https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-maghreb_jnbspmg/playlist.m3u8
+
+# --- ALTRI CANALI MAROCCHINI PRESENTI IN IPTV-ORG ---
+
+#EXTINF:-1 tvg-id="ChadaTV.ma@SD" group-title="Marocco",Chada TV
+https://edge13.vedge.infomaniak.com/livecast/ik:chadatv/manifest.m3u8
+
+#EXTINF:-1 tvg-id="StoryChannelTV.ma@SD" group-title="Marocco",StoryChannel TV
+https://136044159.r.cdnsun.net/storychannel.m3u8
